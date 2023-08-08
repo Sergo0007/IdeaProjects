@@ -4,4 +4,6 @@ public class Ballpoint {
     String color;
     String writing;
     String material;
+
+    public Ballpoint()
 }
