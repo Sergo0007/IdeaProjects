@@ -1,9 +1,9 @@
 package homework_18;
 
 public class Dog {
-   private String name;
-   private int jumpHeight;
-   private int maxJumpHeight;
+    private String name;
+    private int jumpHeight;
+    private int maxJumpHeight;
 
 
     public Dog(String name, int jumpHeight) {
@@ -12,28 +12,28 @@ public class Dog {
         this.maxJumpHeight = jumpHeight * 2;
     }
     //public String getName() {
-        //return name;
+    //return name;
     //}
     //public String setName(String name)
-     //{
-       // this.name = name;
+    //{
+    // this.name = name;
 
     //}
 
     //public int getJumpHeight(){
-       // return jumpHeight;
-  //  }
-   // public void setJumpHeight( int jumpHeight ){
-        //this.jumpHeight = jumpHeight;
+    // return jumpHeight;
+    //  }
+    // public void setJumpHeight( int jumpHeight ){
+    //this.jumpHeight = jumpHeight;
     //}
     //public  int getMaxJumpHeight(){
 
-      //  return  maxJumpHeight ;
+    //  return  maxJumpHeight ;
     //}
-   // public int setMaxJumpHeight(int maxJumpHeight){
-       // this.maxJumpHeight = jumpHeight * 2;
-       // return maxJumpHeight;
-   // }
+    // public int setMaxJumpHeight(int maxJumpHeight){
+    // this.maxJumpHeight = jumpHeight * 2;
+    // return maxJumpHeight;
+    // }
     void whoAmi() {
         System.out.println("Я собака " + name + ", и умею прыгать на" + jumpHeight + "см ");
     }
@@ -42,6 +42,7 @@ public class Dog {
 
         System.out.println(" я прыгаю ");
     }
+
     void jump(int height) {
         System.out.println("Я перепрыгиваю барьер " + height + "см ");
     }

@@ -1,11 +1,9 @@
 package homework_18;
 
 
-
 public class MethodDog {
     public static void main(String[] args) {
-       Dog dog1 = new Dog("Barbos ", 50);
-
+        Dog dog1 = new Dog("Barbos ", 50);
 
 
         for (int i = 0; i < 7; i++) {
@@ -14,12 +12,12 @@ public class MethodDog {
         }
 
         System.out.println("**********");
-       // System.out.println(" jumpHeight " + dog1.getJumpHeight());
+        // System.out.println(" jumpHeight " + dog1.getJumpHeight());
         //System.out.println(" maxJumpHeight " + dog1.getJumpHeight());
 
         System.out.println("******Rax*******");
         Dog dog = new Dog("Rax ", 150);
-       // System.out.println(dog.getMaxJumpHeight());
+        // System.out.println(dog.getMaxJumpHeight());
         //dog.setMaxJumpHeight(3);
 
 
