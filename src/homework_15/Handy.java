@@ -17,7 +17,11 @@ public class Handy {
 
 
     }
-    void  prise(){
+    void  prise() {
         System.out.println(15);
     }
+         void display(){
+             System.out.println("Big");
+         }
+
 }
