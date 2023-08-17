@@ -8,6 +8,7 @@ public class HomWork_15 {
         System.out.println(handy.information);
         handy.color();
         handy.prise();
+        handy.display();
 
     }
 

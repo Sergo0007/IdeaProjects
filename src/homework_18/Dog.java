@@ -43,7 +43,7 @@ public class Dog {
         System.out.println(" я прыгаю ");
     }
 
-    void jump(int height) {
+    private void jump(int height) {
         System.out.println("Я перепрыгиваю барьер " + height + "см ");
     }
 

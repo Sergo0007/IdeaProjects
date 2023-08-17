@@ -5,5 +5,7 @@ public class Ballpoint {
     String writing;
     String material;
 
-    public Ballpoint()
+public Ballpoint(String color,String writing,String material){
+    this.color = color;
+}
 }

@@ -1,7 +1,7 @@
 package HomeWork_19;
 
 public class Dog {
-    private static int jumpTotal = 0;
+    private static   int jumpTotal = 0;
     private String name;
     private int jumpHeight;
     private int maxJumpHeight;
